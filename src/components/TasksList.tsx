@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import TaskItem from "./TaskItem";
 const TasksList = () => {
   let [tasks, setTasks] = useState<string[]>([]);
